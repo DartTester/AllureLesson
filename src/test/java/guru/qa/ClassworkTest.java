@@ -18,7 +18,7 @@ public class ClassworkTest extends TestBase{
     @DisplayName("Github test")
     @Test
     public void githubIssueSearchTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+//        SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com");
         $(".header-search-input").click();
